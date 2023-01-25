@@ -1,8 +1,8 @@
  # Advanced Usage of echo command-
 
    Learn How to Automate Common Tasks with Bash Shell Scripting
-   -  echo command is used to display string/message or variable value or command result.
-   -  Simple syntax:
+     echo command is used to display string/message or variable value or command result.
+     Simple syntax:
     echo message/string
     echo “message/string”
     echo “message/string with some variable $xyz”
