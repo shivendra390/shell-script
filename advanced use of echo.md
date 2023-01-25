@@ -93,3 +93,24 @@ On_IBlue='\033[0;104m'    # Blue
 On_IPurple='\033[0;105m'  # Purple
 On_ICyan='\033[0;106m'    # Cyan
 On_IWhite='\033[0;107m'   # White
+
+
+
+- echo command is used to display string/message or variable value or command result.
+ Simple syntax: 
+ echo message/string
+ echo “message/string”
+ echo “message/string with some variable $xyz”
+ echo “message/string/$variable/$(command)”
+ Advanced usage (to execute escape characters):
+ echo -e 
+“Message/String or variable”
+ Escape Characters:
+ \n New Line
+ \t Horizantal Tab
+ \v Vertical Tab
+ \b Backspace
+ \r Carriage Return etc…
+ To display message in colors.
+ echo -n 
+“message/string/$variable/$(command)”
