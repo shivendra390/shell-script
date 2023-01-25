@@ -4,3 +4,11 @@ s=bash shell scripting
 echo "welcome to $s
 echo "bash shell scripting is powerful in linux env"
 echo "now we are working with variable concept of bash shell scripting"
+
+
+
+#!/bin/bash
+dockerStatus=$(systemctl status docker | awk '/Active/ { print $3 }' | tr -d "[()]")
+dockerVersion=$(docker -v | awk '/version/ { print  $3 }' | tr -d ",")
+echo "The Docker Status is: $dockerStatus"
+echo "The Docker version is: $dockerVersion"
