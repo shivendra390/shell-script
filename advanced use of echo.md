@@ -8,14 +8,13 @@
    - echo “message/string with some variable $xyz”
    - echo “message/string/$variable/$(command)”
  ##  - Advanced usage (to execute escape characters):
-   - echo -e
-   - “Message/String or variable”
-   - Escape Characters:
-   - \n New Line
-   - \t Horizantal Tab
-   - \v Vertical Tab
-   - \b Backspace
-   - \r Carriage Return etc…
+   - echo -e “Message/String or variable”
+####   - Escape Characters:
+       - \n New Line
+       - \t Horizantal Tab
+       - \v Vertical Tab
+       - \b Backspace
+       - \r Carriage Return etc…
  ##  - To display message in colors.
    - echo -n
    - “message/string/$variable/$(command)”
