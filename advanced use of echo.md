@@ -20,7 +20,7 @@
    - echo -n
    - “message/string/$variable/$(command)”
    
-  #.color_codes 
+  # color_codes 
    ## Reset
 Color_Off='\033[0m'       # Text Reset
 
