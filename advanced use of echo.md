@@ -3,9 +3,9 @@
  # - Learn How to Automate Common Tasks with Bash Shell Scripting
    - echo command is used to display string/message or variable value or command result
 ##   - Simple syntax:
-   - echo message/string
-   - echo “message/string”
-   - echo “message/string with some variable $xyz”
+         echo message/string
+         echo “message/string”
+         echo “message/string with some variable $xyz”
    - echo “message/string/$variable/$(command)”
  ##  - Advanced usage (to execute escape characters):
    - echo -e “Message/String or variable”
