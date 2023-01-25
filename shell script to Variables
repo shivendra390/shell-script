@@ -1,0 +1,6 @@
+#### veriable are use to store datain shell scriptsand letter we can use tnem if they are required
+#!/bin/bash
+s=bash shell scripting
+echo "welcome to $s
+echo "bash shell scripting is powerful in linux env"
+echo "now we are working with variable concept of bash shell scripting"
