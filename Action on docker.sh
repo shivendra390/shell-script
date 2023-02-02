@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 ######################################################
-# Author: Narendraa                                  #
-# Date: Aug-2020                                     #
+# Author: shivendra                                  #
+# Date: Aug-2022                                     #
 # Usage is: start,stop,restart and version of docker #
 ######################################################
 
